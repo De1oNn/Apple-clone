@@ -1,0 +1,309 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 44px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f7cc;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.whole-header {
+    height: 100%;
+    width: 996px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.upper-pra {
+    height: 53px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inside-pra {
+    height: 100%;
+    width: 2195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    color: #1d1d1f;
+    font-family: sans-serif;
+}
+#arrow {
+    height: 26px;
+    width: 13px;
+    color: #0066cc;
+}
+#pra {
+    margin: 0;
+    padding: 0;
+}
+#learn {
+    color: #0066cc;
+}
+.iphone {
+    width: 100%;
+    height: 2112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.iphone-pro-pic {
+    width: 100%;
+    height: 692px;
+    object-fit: cover;
+}   
+.iphone-pic {
+    width: 100%;
+    height: 692px;
+    object-fit: cover;
+}
+.ipad-pic {
+    width: 100%;
+    height: 692px;
+    object-fit: cover;
+}
+.iphone-pro-pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.whole-iphone-pro {
+    position: relative;
+    height: 692px;
+    width: 100%;
+}
+.iphone-pro {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.headline {
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: white;
+}
+.subhead {
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: white;
+}
+.links {
+    height: 44px;
+}
+.learn {
+    height: 100%;
+    width: 130px;
+    color: white;
+    font-size: 17px;
+    background-color: #0071e3;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.buy {
+    height: 100%;
+    width: 73px;
+    color: #2997ff;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    border: 1px solid #2997ff;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.links {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+.whole-pra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.whole-iphone-regular {
+    height: 692px;
+    width: 100%;
+    position: relative;
+}
+.iphone-pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.iphone-button {
+    height: 44px;
+    display: flex;
+    gap: 15px;
+}
+#Learn {
+    color: black;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f7;
+    height: 100%;
+    width: 130px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#buy {
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 73px;
+}
+.iphone-regular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.whole-ipad {
+    position: relative;
+    height: 692px;
+    width: 100%;
+}
+.ipad-pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.ipad-pra {
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+#ipad-pic {
+    height: 44px;
+    width: 200px;
+}
+.ipad-whole-pra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+    justify-content: space-between;
+}
+.ipad {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gradient {
+    background: -webkit-linear-gradient(356deg, #0090F7, #BA62FC, #F2416B, #F55600);
+    background: linear-gradient(94deg, #0090F7, #BA62FC, #F2416B, #F55600);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.homepage-section {
+    height: 1776px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+.homepage-pics {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+} 
+.homepage-whole-section {
+    height: 580px;
+    width: 1102px;
+}
+.gallery {
+    width: 100%;
+    height: 705px;
+}
+.running-gallery {
+    overflow: hidden;
+}
+.running-gallery:hover {
+    animation-play-state: paused;
+}
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.whole-running-gallery img {
+    height: 236px;
+    width: 417px;
+}
+.running-gallery-pic {
+    height: 100%;
+    object-fit: contain;
+}
+
+.whole-running-gallery {
+    display: flex;
+    flex-direction: row;
+    animation: 30s slide infinite linear;
+}
