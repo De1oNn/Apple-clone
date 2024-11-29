@@ -266,14 +266,277 @@ header {
     justify-content: space-around;
     align-content: space-between;
 }
+
+.homepage-whole-section {
+    height: 580px;
+    width: 1102px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#watch-logo-pic {
+    height: 33px;
+    width: 33px;
+}
+#watch-pic {
+    font-size: 35px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+#series {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.hehe {
+    display: flex;
+}
+#classic {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 13px 0px;
+}
+.watch-homepage-whole {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: start;
+}
 .homepage-pics {
     height: 100%;
     width: 100%;
     object-fit: fill;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 } 
-.homepage-whole-section {
-    height: 580px;
-    width: 1102px;
+.homepage-pics1 {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+} 
+#homepage-learn {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #0071e3;
+    border-radius: 25px;
+    height: 36px;
+    width: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+#homepage-buy {
+    height: 36px;
+    width: 62px;
+    color: #2997ff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #0071e3;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.homepage-button {
+    height: 36px;
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+h2 {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin: 0;
+    color: white;
+}
+.air-pod-pra1 {
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin: 0px;
+    color: white;
+}
+.air-pods-whole {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+}
+#macbook-air {
+    color: black;
+}
+#lean {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.macbook-air-whole {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+}#macbook-air {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+#Apple-homepage {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 500;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    margin: 0;
+}
+#business-buttom {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0071e3;
+    color: white;
+    height: 36px;
+    width: 104px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Hardware-homepage {
+    font-size: 20px;
+    line-height: 1.19048;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin: 0;
+    height: 45px;
+    width: 300px;
+    text-align: center;
+}
+.business-homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+    justify-content: start;
+}
+#carrier {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 500;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin: 0;
+    color: black;
+}
+#get {
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: 4px;
+    height: 40px;
+    width: 420px;
+    text-align: center;
+}
+#find {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #0071e3;
+    border-radius: 25px;
+    height: 36px;
+    width: 121px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carrier-homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+    justify-content: end;
+}
+#trade-in-pic {
+    height: 32px;
+    width: 32px;
+}
+#trade-in {
+    font-size: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+.trade-homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#credit-in {
+    height: 40px;
+    width: 350px;
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin: 0;
+    text-align: center;
+}
+#your {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #0071e3;
+    height: 36px;
+    width: 145px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px;
+}
+.trade-homepage-whole {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    justify-content: start;
+    flex-direction: column;
 }
 .gallery {
     width: 100%;
@@ -306,4 +569,151 @@ header {
     display: flex;
     flex-direction: row;
     animation: 30s slide infinite linear;
+}
+
+.gallery-pic {
+    height: 667px;
+    width: 1250px;
+
+}
+@keyframes gallery {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.gallery-pics {
+    display: flex;
+    flex-direction: row;
+    overflow: hi;
+    animation: 20s gallery infinite linear;
+}
+.li {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 0;
+    color: gray;
+}
+.empty {
+    width: 100%;
+    height: 56px;
+}
+footer {
+    width: 100%;
+    height: 2512px;
+    background-color: #f5f5f7;
+}
+.footer-content {
+    height: 100%;
+    width: 980px;
+    margin: 0px 608px;
+    padding: 0px 22px;
+}
+.whole-content {
+    width: 100%;
+    height: 1900px;
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    color: rgb(155, 155, 155);
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+#footer-line {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(155, 155, 155);
+}
+.footer-category {
+    width: 100%;
+    height: 439px;
+    padding: 20px 0px 0px;
+    display: flex;
+}
+.whole-list {
+    height: 439px;
+    width: 196px;
+}
+.list-header {
+    margin: 0;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(69, 69, 69);
+}
+.lists {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(119, 119, 119);
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    text-decoration: underline;
+
+}
+.haha {
+    text-decoration: underline;
+}
+.inside-list{
+    margin: 5px 0px;
+}
+.footer-footer {
+    height: 106px;
+    width: 100%;
+    padding: 37px 0px 11px;
+}
+.more-footer {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0000008f;
+    height: 36px;
+    width: 100%;
+}
+#footer-line1 {
+    height: 1px;
+    width: 100%;
+    background-color: #0000008f;
+}
+.last-footer {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+#more-ways {
+    margin: 0;
+}
+.copyright {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0000008f;
+    margin: 0;
+    margin-right: 30px;
+}
+.privacy {
+    text-decoration: underline;
+}
+.all {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0000008f;
+    margin-right: 263px;
+}
+.united {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0000008f;
+    text-decoration: underline;
+}
+.last-footer .asd {
+    justify-content: end;
+}
+.special {
+    color: #0066cc;
+    text-decoration: underline;
 }
