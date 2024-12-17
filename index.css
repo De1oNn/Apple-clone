@@ -570,6 +570,8 @@ h2 {
     display: flex;
     flex-direction: row;
     animation: 30s slide infinite linear;
+
+    
 }
 
 .gallery-pic {
