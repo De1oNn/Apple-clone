@@ -545,6 +545,7 @@ h2 {
 }
 .running-gallery {
     overflow: hidden;
+    margin-top: 20px;
 }
 .running-gallery:hover {
     animation-play-state: paused;
@@ -573,7 +574,9 @@ h2 {
 
     
 }
-
+/* .whole-running-gallery:hover {
+    animation: 40s slide infinite linear;
+} */
 .gallery-pic {
     height: 667px;
     width: 1250px;
@@ -592,6 +595,9 @@ h2 {
     flex-direction: row;
     overflow: hidden;
     animation: 20s gallery infinite linear;
+}
+.gallery-pics:hover {
+    animation: 30s gallery infinite linear;
 }
 .li {
     height: 30px;
